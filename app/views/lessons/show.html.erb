@@ -1,0 +1,9 @@
+<h1><%= @lesson.name %></h1>
+<h5><%= @lesson.content %></h5>
+<h5><%= @lesson.number %></h5>
+
+<hr>
+
+<%= link_to "Edit Lesson", edit_section_lesson_path(@section, @lesson) %>
+<%= link_to "Delete Lesson", section_lesson_path(@section, @lesson), :data => {:confirm => "Are You Sure?", :method => "delete"} %>
+<%= link_to "Return to Section", course_section_path(@course, @section) %>

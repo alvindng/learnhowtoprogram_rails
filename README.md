@@ -1,24 +1,26 @@
-# README
+# LEARN HOW TO PROGRAM :squirrel:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Learn How to Program Clone
 
-Things you may want to cover:
+```
+$ git clone https://github.com/alvindng/learnhowtoprogram_rails
+```
+Install gem dependencies
+```
+$ bundle
+```
+Create database
+```
+rails db:create db:schema:load
+```
+Start server at `localhost:3000`
+```
+rails s
+```
+* Rails version 5.0.0.1
 
-* Ruby version
+* Ruby version 2.2.3p173
 
-* System dependencies
+#### Authors
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Alvin Ng](https://github.com/alvindng?tab=repositories) 
