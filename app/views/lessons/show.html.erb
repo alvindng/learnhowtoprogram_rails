@@ -1,3 +1,7 @@
+<%= link_to "Previous Lesson", section_lesson_path(@section, @lesson.previous)%>
+<%= link_to "Next Lesson", section_lesson_path(@section, @lesson.next)%>
+
+
 <h1><%= @lesson.name %></h1>
 <h5><%= @lesson.content %></h5>
 <h5><%= @lesson.number %></h5>

@@ -11,7 +11,7 @@ class Lesson < ActiveRecord::Base
     if new_lesson
       new_lesson
     else
-      "This course is currently not available."
+      self
     end
   end
 
@@ -21,7 +21,7 @@ class Lesson < ActiveRecord::Base
     if new_lesson
       new_lesson
     else
-      "This course is currently not available."
+      self
     end
   end
 end
